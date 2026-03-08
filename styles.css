@@ -327,6 +327,22 @@ li {
   max-width: 32rem;
 }
 
+.hero-avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.85);
+  margin: 1rem 0 0.4rem;
+}
+
+.hero-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -496,10 +512,22 @@ li {
 }
 
 .stack-label {
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.2em;
   color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.stack-label::before {
+  content: "";
+  display: inline-block;
+  width: 34px;
+  height: 1px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent-strong), transparent);
 }
 
 .stack-icons {
@@ -622,6 +650,13 @@ li {
   justify-content: center;
   color: var(--text-muted);
   font-size: 0.8rem;
+  overflow: hidden;
+}
+
+.media-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Certs */
