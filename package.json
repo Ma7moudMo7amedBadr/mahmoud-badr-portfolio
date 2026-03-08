@@ -1,0 +1,10 @@
+{
+  "name": "mahmoud-badr-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional portfolio for Mahmoud Mohamed Badr, Machine Learning Engineer specialized in Cybersecurity.",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
+
