@@ -386,6 +386,18 @@ li {
   gap: 1rem;
 }
 
+@media (min-width: 700px) {
+  .hero-visual {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .hero-visual .cyber-card {
+    flex: 1;
+    width: auto;
+  }
+}
+
 .cyber-card {
   position: relative;
   width: 100%;
