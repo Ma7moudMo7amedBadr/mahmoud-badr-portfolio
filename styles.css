@@ -842,3 +842,58 @@ li {
   }
 }
 
+
+/* ── Cert Links ─────────────────────────────────────────── */
+.cert-link {
+  color: var(--text);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: color var(--transition-fast);
+}
+
+.cert-link:hover {
+  color: var(--accent);
+}
+
+.cert-icon {
+  font-size: 0.7em;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+/* ── Freelance Platform Badges ──────────────────────────── */
+.freelance-links {
+  flex-wrap: wrap;
+  gap: 0.6rem !important;
+}
+
+.freelance-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border-subtle);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: border-color var(--transition-fast), background var(--transition-fast), color var(--transition-fast);
+  direction: rtl;
+}
+
+.freelance-badge:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.platform-logo {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  border-radius: 3px;
+}
